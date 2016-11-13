@@ -1,0 +1,13 @@
+﻿<Window x:Class="AOIGameSnake.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window2" Height="300" Width="300">
+    <Grid>
+        <TextBlock x:Name="textBox" HorizontalAlignment="Left" Height="41" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="282"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="149" Margin="27,41,0,0" VerticalAlignment="Top" Width="238" Loaded="Image_Loaded"/>
+        <TextBlock x:Name="AnswerBox" Text="Answer:" HorizontalAlignment="Left" Margin="27,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="UserInput" HorizontalAlignment="Left" Height="43" Margin="27,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name ="Submitbtn" Content="Submit" HorizontalAlignment="Left" Margin="221,232,0,0" VerticalAlignment="Top" Width="44" Height="27" Click="Submitbtn_Click"/>
+
+    </Grid>
+</Window>
